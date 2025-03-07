@@ -16,7 +16,7 @@ except ImportError:
 
 # Set up the App
 st.set_page_config(page_title="Data Sweeper", layout="wide")
-st.title("Data Sweeper")
+st.title("Data Sweeper App")
 st.write("Convert, clean, and visualize your files with built-in processing!")
 
 # File Upload
