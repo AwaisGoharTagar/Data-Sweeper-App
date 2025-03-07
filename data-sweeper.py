@@ -1,10 +1,12 @@
 import streamlit as st
-pandas
-openpyxl
-python-docx
-PyPDF2
-python-pptx
-fpdf
+import pandas as pd
+import os
+from io import BytesIO
+import docx  # Correct import for python-docx
+from PyPDF2 import PdfReader
+import pptx
+from pptx.util import Inches
+from fpdf import FPDF
 
 
 # Set up the App
