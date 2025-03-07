@@ -1,12 +1,11 @@
-import streamlit as st
-import pandas as pd
-import os
-from io import BytesIO
-import docx
-from PyPDF2 import PdfReader
-import pptx
-from pptx.util import Inches
-from fpdf import FPDF
+streamlit
+pandas
+openpyxl
+python-docx
+PyPDF2
+python-pptx
+fpdf
+
 
 # Set up the App
 st.set_page_config(page_title="Data Sweeper", layout="wide")
